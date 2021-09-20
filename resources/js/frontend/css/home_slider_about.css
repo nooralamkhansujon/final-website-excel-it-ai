@@ -1,0 +1,52 @@
+/* about section  */
+.main-wrapper .about-section {
+    /* padding: 50px 0; */
+    padding: 100px 0;
+}
+.main-wrapper .about-section .section-title h2 {
+    font-size: 2rem;
+}
+.main-wrapper .about-section .about-wrapper .about-item .about-content h4 {
+    font-size: 1.7rem;
+    color: #138496;
+    text-transform: capitalize;
+    letter-spacing: 0.2ch;
+    text-align: center;
+}
+.main-wrapper .about-section .about-wrapper .about-item .about-thumb {
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+.main-wrapper .about-section .about-wrapper .about-item .about-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.main-wrapper .about-section .about-wrapper .about-filter {
+    position: absolute;
+    content: "";
+    top: -30px;
+    width: 100%;
+}
+.main-wrapper .about-section .about-wrapper .about-filter .tablink {
+    background-color: #555;
+    border-radius: 5px;
+    color: #000;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+.main-wrapper .about-section .about-wrapper .about-filter .tablink:hover {
+    background-color: #777;
+}
+.main-wrapper .about-section .about-wrapper .tabcontent {
+    color: #000;
+    display: none;
+    height: 100%;
+}
+/* end of about section  */

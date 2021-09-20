@@ -1,0 +1,65 @@
+/* contact section start */
+.contact {
+    background-color: #e5fbee;
+}
+
+.mb-3 {
+    border-radius: 5px;
+}
+.form-control {
+    border-radius: 20px;
+    border-color: #32cd32;
+    min-width: 100%;
+    max-width: 100%;
+    width: 500px;
+    height: 70px;
+}
+
+.form-control:focus {
+    border-color: #ff80ff;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset,
+        0px 0px 8px rgba(255, 100, 255, 0.5);
+}
+#message,
+#emailAddress {
+    width: 500px;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    #message,
+    #emailAddress,
+    .form-control {
+        width: 400px;
+        max-width: 100%;
+    }
+}
+@media screen and (min-width: 601px) {
+    #message,
+    #emailAddress,
+    .form-control {
+        width: 500px;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #message,
+    #emailAddress,
+    .form-control {
+        width: 280px;
+        max-width: 100%;
+    }
+}
+.contact-container {
+    width: 80%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+/* conatct section responsive */
+@media screen and (max-width: 760px) {
+}
+/* conatct section end */
